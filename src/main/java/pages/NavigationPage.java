@@ -9,6 +9,6 @@ public class NavigationPage {
     public static By webview = By.xpath("//android.widget.TextView[@text='Webview']");
     public static By swipe = By.xpath("//android.widget.TextView[@text='Swipe']");
     public static By drag = By.xpath("//android.widget.TextView[@text='Drag']");
-    public static By youfoundme = By.xpath("//android.widget.TextView[@text=\"You found me!!!\"]");
+    public static By youfoundme = By.xpath("//android.widget.TextView[@text='You found me!!!']");
 
 }

@@ -21,5 +21,4 @@ This project is designed to evaluate the ability to develop and execute automate
 First, clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/yourusername/your-repo.git
-cd your-repo
+git clone https://https://github.com/goglazurabishvili/hashBankProject

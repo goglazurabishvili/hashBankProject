@@ -1,6 +1,7 @@
 <suite name="Suite1" verbose="1" >
     <test name="hashbank" >
         <classes>
+            <class name="BonusTest" />
             <class name="ScenarioOneCheckingLoginPageTest" />
             <class name="ScenarioTwoCheckFormPageTest" />
         </classes>

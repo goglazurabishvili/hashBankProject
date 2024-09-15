@@ -17,12 +17,12 @@ public class ScenarioTwoCheckFormPageTest extends BaseClass {
     public void formsTest(){
         navigationSteps.clickOnFormField();
         formSteps.fillInputField(FORM_NAME);
-        Assert.assertEquals(formSteps.getInputedText(),FORM_NAME);
+            Assert.assertEquals(formSteps.getInputedText(),FORM_NAME);
         formSteps.clickOnDropDown()
                 .chooseSelectItem(1);
-        Assert.assertEquals(formSteps.getDropDownedText(),WEB_DRIVER);
+            Assert.assertEquals(formSteps.getDropDownedText(),WEB_DRIVER);
         formSteps.clickOnActiveButton();
-        Assert.assertTrue(formSteps.buttonIsActivated());
+            Assert.assertTrue(formSteps.buttonIsActivated());
     }
 
 }
